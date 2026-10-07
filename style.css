@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    color: aliceblue;
+    padding: 12px 80px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.foto1{
+    background-image: url("./imagens/serge-taeymans-semr62rBJO0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: auto;
+
+
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto1 h2{
+    display: flex;
+    padding: 40px;
+    font-size: 60px;
+    margin-left: 40px;
+    justify-content: flex-start;
+    padding-top: 165px;
+}
+
+.foto1 p{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 17px;
+    justify-content: center;
+    max-width: 700px;
+}
+
+.foto1 button{
+    margin-top: 30px;
+    margin-left: 75px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+.sobre{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre h2{
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.sobre p{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 17px;
+}
+
+.sobre button{
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    background-color: #C89B48;
+    border: none;
+    cursor: pointer;
+}
+
+.servicos{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 2px solid #C89B48;
+    margin: 40px;
+    border-radius: 30px;
+}
+
+.servicos h2{
+    margin-top: 30px;
+    padding: 40px;
+    color: aliceblue;
+    text-align: center;
+}
+
+i{
+    font-size: 70px;
+    color: #C89B48;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista{
+    display: flex;
+    margin-top: 60px;
+    display: flex;
+    color: aliceblue;
+    gap: 30px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.lista p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.textoc{
+    font-size: 17px !important;
+    text-align: center;
+    max-width: 300px;
+}
+.textof{
+    font-size: 17px !important;
+    text-align: center;
+    max-width: 300px;
+}
+.textoi{
+    font-size: 17px !important;
+    text-align: center;
+    max-width: 300px;
+}
+.textot{
+    font-size: 17px !important;
+    text-align: center;
+    max-width: 300px;
+}
+.fotos2{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.fotos3{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.nosso{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    margin-left: 120px;
+    margin-bottom: 80px;
+}
+.fotos2 img{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.fotos3 img{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.loc{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+    padding: 40px;
+    justify-content: space-around;
+}
+.loc i{
+    font-size: 30px;
+}
+.loc p{
+    margin-left: -260px;
+}
+.rodape{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    padding: 30px;
+    border-top: 2px solid #C89B48;
+}
+
+
+
+
